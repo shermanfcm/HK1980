@@ -12,9 +12,7 @@ The latest revision, WGS 84 (EPSG:4326), is the reference coordinate system used
 * [Python](#python)
 
 ## HTTP
-RESTful API provided by Geodetic Survey Section, Lands Department, HKSARG.
-
-[API Manual](https://www.geodetic.gov.hk/transform/tformAPI_manual.pdf)
+[API](https://www.geodetic.gov.hk/transform/tformAPI_manual.pdf) provided by Geodetic Survey Section, Lands Department, HKSARG.
 
 ### Request URL
 ```http

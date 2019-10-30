@@ -13,6 +13,7 @@ The latest revision, WGS 84 (EPSG:4326), is the reference coordinate system used
 
 ## HTTP
 RESTful API provided by Geodetic Survey Section, Lands Department, HKSARG.
+
 [API Manual](https://www.geodetic.gov.hk/transform/tformAPI_manual.pdf)
 
 ### Request URL
@@ -20,6 +21,7 @@ RESTful API provided by Geodetic Survey Section, Lands Department, HKSARG.
 https://www.geodetic.gov.hk/transform/v2/
 ```
 Method: GET
+
 Response format: JSON
 
 | Parameter | Value |
@@ -59,7 +61,7 @@ proj4.defs('EPSG:2326', '+proj=tmerc +lat_0=22.31213333333334 +lon_0=114.1785555
 
 Covert from one system to another:
 ```js
-[easting, northing] = [835411.431, 817266.016]
+[easting, northing] = [835411.431, 817266.016];
 [longitude, latitude] = proj4('EPSG:2326', 'EPSG:4326', [easting, northing]);
 ```
 
